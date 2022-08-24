@@ -5,10 +5,18 @@ mode prove
 smtbmc
 
 [script]
-read -formal wrapper.v rest of your source files.v
+read -formal wrapper.v register_file.v processor.v mux3.v memory_controler.v ibnalhaytham.v hazard_unit.v extend.v control_unit.v alu.v
 prep -top wrapped_project
 
 [files]
 wrapper.v
 properties.v
-rest of your source files.v
+ibnalhaytham/src/register_file.v
+ibnalhaytham/src/processor.v
+ibnalhaytham/src/mux3.v
+ibnalhaytham/src/memory_controler.v
+ibnalhaytham/src/ibnalhaytham.v
+ibnalhaytham/src/hazard_unit.v
+ibnalhaytham/src/extend.v
+ibnalhaytham/src/control_unit.v
+ibnalhaytham/src/alu.v

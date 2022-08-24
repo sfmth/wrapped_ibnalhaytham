@@ -9,6 +9,7 @@
 //`define USE_SHARED_OPENRAM 1
 //`define USE_MEM 1
 //`define USE_IRQ 1
+`define USE_CLK2 1
 
 // update this to the name of your module
 module wrapped_project(
@@ -151,6 +152,21 @@ module wrapped_project(
     // Instantiate your module here, 
     // connecting what you need of the above signals. 
     // Use the buffered outputs for your module's outputs.
+
+        ibnalhaytham core1(
+        wb_clk_i,                            // clock, runs at system clock
+
+        la1_data_in,                // from CPU to your project
+        buf_la1_data_out,
+        la1_oenb,
+
+        io_in[16:10],           // in to your project
+        buf_io_out[30:10],          // out from your project
+
+        user_clock2
+
+    );
+
 
 endmodule 
 `default_nettype wire

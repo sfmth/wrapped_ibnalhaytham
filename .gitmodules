@@ -1,0 +1,3 @@
+[submodule "ibnalhaytham"]
+	path = ibnalhaytham
+	url = https://github.com/sfmth/ibnalhaytham
