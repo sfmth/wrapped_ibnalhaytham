@@ -1,14 +1,14 @@
 --- 
 # information
 project: 
-  title: "title"
-  description: "description"
+  title: "ibnalhaytham"
+  description: "32-bit RISC-V based processor"
   picture: docs/empty.png
-  author: "Author"
-  license: LICENSE
+  author: "Farhad Modaresi"
+  license: ibnalhaytham/LICENSE
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
-interfaces: ['la1', 'gpio']
+interfaces: ['la1', 'gpio', 'clk2']
 
 # test within caravel
 caravel_test:
@@ -35,7 +35,16 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - other source files here
+    - ibnalhaytham/src/register_file.v
+    - ibnalhaytham/src/processor.v
+    - ibnalhaytham/src/mux3.v
+    - ibnalhaytham/src/memory_controler.v
+    - ibnalhaytham/src/ibnalhaytham.v
+    - ibnalhaytham/src/hazard_unit.v
+    - ibnalhaytham/src/extend.v
+    - ibnalhaytham/src/control_unit.v
+    - ibnalhaytham/src/alu.v
+
 
 # gds - check nothing on metal 5, DRC & LVS
 final:

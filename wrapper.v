@@ -12,7 +12,7 @@
 `define USE_CLK2 1
 
 // update this to the name of your module
-module wrapped_project(
+module wrapped_ibnalhaytham(
 `ifdef USE_POWER_PINS
     inout vccd1,	// User area 1 1.8V supply
     inout vssd1,	// User area 1 digital ground
