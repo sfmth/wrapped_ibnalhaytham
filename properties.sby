@@ -6,7 +6,7 @@ smtbmc
 
 [script]
 read -formal wrapper.v register_file.v processor.v mux3.v memory_controler.v ibnalhaytham.v hazard_unit.v extend.v control_unit.v alu.v
-prep -top wrapped_project
+prep -top wrapped_ibnalhaytham
 
 [files]
 wrapper.v
