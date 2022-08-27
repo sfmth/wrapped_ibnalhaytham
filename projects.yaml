@@ -42,10 +42,6 @@ openram_support:
             commit: '1ef59a0d03fc21cdadabec0a3f07ff4e05598f70'
             pos:    '344 475.5 N'
 
-        ibnalhaytham:
-            repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
-            commit: 'a2315b35611b83ca239ff063d0b60927c4d6207b'
-            pos: '0 0 N'
 
 configuration:
     macro_snap: 0.23 # half of met2 pin/track space
@@ -68,4 +64,8 @@ projects:
         repo:   'https://github.com/mattvenn/wrapped_rgb_mixer'
         commit: 'mpw7'
         pos:    '0 0 N'
+    ibnalhaytham:
+        repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
+        commit: 'a2315b35611b83ca239ff063d0b60927c4d6207b'
+        pos: '0 0 N'
 
