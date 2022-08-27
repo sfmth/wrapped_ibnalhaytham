@@ -62,6 +62,6 @@ projects:
     # change the name, repo and the commit to match your project. You can set the commit to be a branch or a gitsha
     ibnalhaytham:
         repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
-        commit: '9765bfdd7b32247534419567a18efa6987f77a8a'
+        commit: '9ea632244b60957dddb8826e538a656d7f1c988f'
         pos: '0 0 N'
 
