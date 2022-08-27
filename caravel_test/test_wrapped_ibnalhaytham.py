@@ -30,7 +30,7 @@ async def test_start(dut):
     dut.RSTB.value = 1
 
     # wait for the project to become active
-    await with_timeout(RisingEdge(dut.uut.mprj.prj1.active), 3000, 'us')
+    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.active), 3000, 'us')
     
 
 
@@ -52,12 +52,12 @@ async def test_all(dut):
     dut.uut.mprj.io_in[9].value = 1
     await Timer(10, units="us")
 
-    await with_timeout(RisingEdge(dut.uut.mprj.prj1.core1.processor_1.clk), 500, 'us')
+    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.core1.processor_1.clk), 500, 'us')
 
 
     # wait for the reset signal - time out if necessary - should happen around 165us
-    await with_timeout(RisingEdge(dut.uut.mprj.prj1.core1.processor_1.reset), 500, 'us')
-    await FallingEdge(dut.uut.mprj.prj1.core1.processor_1.reset)
+    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.core1.processor_1.reset), 500, 'us')
+    await FallingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.core1.processor_1.reset)
     await Timer(1, units="ms")
 
 
