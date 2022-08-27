@@ -6,6 +6,7 @@ project:
   picture: layout.png
   author: "Farhad Modaresi"
   license: ibnalhaytham/LICENSE
+  waive_caravel: 'test passes locally but fails on github action'
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
 interfaces: ['la1', 'gpio', 'clk2']
