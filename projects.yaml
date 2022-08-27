@@ -66,6 +66,6 @@ projects:
         pos:    '0 0 N'
     ibnalhaytham:
         repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
-        commit: 'a2315b35611b83ca239ff063d0b60927c4d6207b'
+        commit: '4df8cf85ea95e3e59386d14e2e49bfb1d8addb38'
         pos: '0 0 N'
 
