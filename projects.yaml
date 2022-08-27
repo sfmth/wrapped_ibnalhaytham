@@ -44,7 +44,7 @@ openram_support:
 
         ibnalhaytham:
             repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
-            commit: ''
+            commit: 'a2315b35611b83ca239ff063d0b60927c4d6207b'
             pos: '0 0 N'
 
 configuration:
