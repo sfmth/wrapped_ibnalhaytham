@@ -52,7 +52,7 @@ async def test_all(dut):
     dut.uut.mprj.io_in[9].value = 1
     await Timer(10, units="us")
 
-    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.core1.processor_1.clk), 500, 'us')
+    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_ibnalhaytham_1.core1.processor_1.clk), 5000, 'us')
 
 
     # wait for the reset signal - time out if necessary - should happen around 165us
