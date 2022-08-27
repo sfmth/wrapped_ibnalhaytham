@@ -3,7 +3,7 @@
 project: 
   title: "ibnalhaytham"
   description: "32-bit RISC-V based processor"
-  picture: docs/empty.png
+  picture: layout.png
   author: "Farhad Modaresi"
   license: ibnalhaytham/LICENSE
 
@@ -15,12 +15,12 @@ caravel_test:
   recipe: "coco_test"
   directory: "caravel_test"
   id: 1
-  module_name: "wrapped_project"
+  module_name: "wrapped_ibnalhaytham"
 
 # module test
 module_test:
-  recipe: "all" 
-  directory: "project directory"
+  recipe: "test_fin" 
+  directory: "ibnalhaytham"
   makefile: "Makefile"
 
 # run the wrapper formal proof
@@ -49,6 +49,8 @@ source:
 # gds - check nothing on metal 5, DRC & LVS
 final:
   directory: "final"
-  gds_filename: "gds/project.gds"
-  lvs_filename: "verilog/gl/project.v"
-  lef_filename: "lef/project.lef"
+  gds_filename: "gds/wrapped_ibnalhaytham.gds"
+  lvs_filename: "verilog/gl/wrapped_ibnalhaytham.v"
+  lef_filename: "lef/wrapped_ibnalhaytham.lef"
+
+

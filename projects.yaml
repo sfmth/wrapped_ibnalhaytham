@@ -42,6 +42,11 @@ openram_support:
             commit: '1ef59a0d03fc21cdadabec0a3f07ff4e05598f70'
             pos:    '344 475.5 N'
 
+        ibnalhaytham:
+            repo: 'https://github.com/sfmth/wrapped_ibnalhaytham'
+            commit: ''
+            pos: '0 0 N'
+
 configuration:
     macro_snap: 0.23 # half of met2 pin/track space
     user_area_width: 2920

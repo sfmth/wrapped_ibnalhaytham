@@ -1,0 +1,119 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Sat Aug 27 11:36:50 2022
+[*]
+[dumpfile] "/home/farhad/bin/Caravel_user_project/caravel_user_project/verilog/dv/ibnalhaytham/wrapped_ibnalhaytham.vcd"
+[dumpfile_mtime] "Sat Aug 27 11:36:38 2022"
+[dumpfile_size] 1071527
+[savefile] "/home/farhad/bin/Caravel_user_project/caravel_user_project/verilog/dv/ibnalhaytham/wrapped_ibnalhaytham.gtkw"
+[timestart] 796500000
+[size] 1920 1029
+[pos] -1 -1
+*-26.000000 916750000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wrapped_ibnalhaytham_tb.
+[treeopen] wrapped_ibnalhaytham_tb.uut.
+[treeopen] wrapped_ibnalhaytham_tb.uut.mprj.
+[treeopen] wrapped_ibnalhaytham_tb.uut.mprj.prj1.
+[treeopen] wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.
+[treeopen] wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.
+[sst_width] 273
+[signals_width] 314
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.wb_clk_i
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.active
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.reset
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.clk
+@200
+-
+@c00022
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+@28
+(0)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(1)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(2)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(3)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(4)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(5)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+(6)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_in[6:0]
+@1401200
+-group_end
+@c00022
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+@28
+(0)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(1)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(2)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(3)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(4)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(5)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(6)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(7)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(8)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(9)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(10)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(11)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(12)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(13)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(14)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(15)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(16)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(17)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(18)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(19)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+(20)wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.io_out[20:0]
+@1401200
+-group_end
+@200
+-
+@c00022
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+@28
+(0)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(1)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(2)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(3)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(4)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(5)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(6)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(7)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(8)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(9)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(10)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(11)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(12)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(13)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(14)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(15)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(16)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(17)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(18)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(19)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(20)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(21)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(22)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(23)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(24)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(25)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(26)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(27)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(28)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(29)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(30)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+(31)wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_in[31:0]
+@1401200
+-group_end
+@22
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_data_out[31:0]
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.la1_oenb[31:0]
+@200
+-
+@28
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.regfile_1.write_enable
+@25
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.regfile_1.address_3[4:0]
+@24
+wrapped_ibnalhaytham_tb.uut.mprj.prj1.core1.processor_1.regfile_1.write_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
