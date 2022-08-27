@@ -2,7 +2,7 @@
 set ::env(DESIGN_NAME) wrapped_ibnalhaytham
 
 # Change if needed
-set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+set ::env(VERILOG_FILES) [glob $::ibnalhaytham/src/*.v]
 
 # Fill this
 set ::env(CLOCK_PERIOD) "10.0"
